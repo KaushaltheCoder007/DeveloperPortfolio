@@ -1,0 +1,129 @@
+html,body{
+	height:100%;
+	width:100%;
+	margin:auto 0;
+	font-family:'Arial';
+	
+}
+
+h2{
+text-align:center;
+font-size:1.5em;
+}
+
+h5{
+text-align:center;
+}
+
+/*Navigation*/
+
+.navbar{
+background-color:black;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white !important;
+}
+
+/*Cover*/
+
+.cover-text{
+	margin-bottom:25vh;
+}
+
+.cover{
+	
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(cover.jpg) no-repeat center center fixed;
+	background-size:cover;
+	height:92vh;
+	color:white;
+}
+
+/*About*/
+
+.intro{
+	font-weight:bold;
+}
+.about{
+	height:80vh;
+	background-color:#e8e9ea;
+	font-weight:normal!important;
+}
+
+/*Technology*/
+
+.technology{
+	height:149vh;
+	/* border:1px solid blue; */ 
+	
+}
+.front-end{
+	width:20vh;
+	height:20vh;
+}
+
+/*Contact*/
+
+.contact{
+	height:50vh;
+	background-color:#e8e9ea;
+}
+
+/*Footer*/
+
+.footer{
+	height:25vh;
+	color:white;
+	background-color:black;
+	font-weight:normal!important;
+}
+
+/*Mail Chimp*/
+
+#mc-embedded-subscribe{
+color:white;
+background-color:black;
+}
+#mc_embed_signup{
+	background:#fff; 
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif; 
+	width:100%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 8px;
+   border-radius: 50%;
+  font-size: 30px;
+  width: 50px;
+  margin-left:10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #b3b8bd;
+  color: white;
+}
+
+
+
+
